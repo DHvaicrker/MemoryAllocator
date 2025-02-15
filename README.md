@@ -11,8 +11,6 @@ This module provides custom memory management functions including:
 - Reallocation of memory blocks
 - Printing the current state of the free list
 
-## 🚀 Getting Started
-
 ### Prerequisites
 
 - A C compiler (e.g., `gcc`)
