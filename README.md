@@ -87,14 +87,6 @@ After building the project, you can run the example program:
 - **Parameters**: None
 - **Returns**: A pointer to the head of the free list.
 
-## 📜 Data Structures
-
-### `Free_memory_block`
-- **Description**: Represents a free memory block in the free list.
-- **Members**:
-  - `size_t virtual_addr`: The virtual address of the block.
-  - `size_t block_size`: The size of the block in bytes.
-  - `struct Free_memory_block* next`: Pointer to the next free block in the list.
 
 ### `header`
 - **Description**: Represents the header of an allocated memory block.
